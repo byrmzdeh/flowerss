@@ -1,0 +1,43 @@
+.basket{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    table{
+        width: 70%;
+        margin-top: 50px;
+        tr{
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+            .minus{
+                background-color: rgb(222, 21, 21);
+                border: none;
+                padding: 5px;
+                color: white;
+                font-size: 15px
+            }
+            .plus{
+                background-color: green;
+                border: none;
+                padding: 5px;
+                color: white;
+                font-size: 15px
+            }
+        }
+        i{
+            color:  rgb(211, 27, 27);
+            font-size: 20px;
+        }
+    }
+}

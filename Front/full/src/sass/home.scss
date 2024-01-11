@@ -1,0 +1,393 @@
+.home {
+    .one {
+        width: 100%;
+        height: 80vh;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .two {
+        width: 100%;
+        height: 90vh;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg');
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .write {
+            width: 600px;
+            height: 600px;
+            background-color: #1b745e;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            color: white;
+
+            h1 {
+                font-size: 40px;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 23px
+            }
+
+            button {
+                cursor: pointer;
+                width: 180px;
+                height: 55px;
+                border: none;
+                transition: 0.5s;
+                background-color: #d8e3d5;
+                color: #1b745e;
+
+                &:hover {
+                    background-color: #30836e;
+                    color: #d8e3d5;
+                }
+            }
+
+        }
+    }
+
+    .three {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        p {
+            font-style: italic;
+            color: #1b745e;
+        }
+
+        h1 {
+            color: #1b745e;
+            padding-top: 13px;
+            font-weight: 100;
+            font-size: 46px;
+            font-family: serif;
+        }
+
+        .cards {
+            margin-top: 45px;
+            display: grid;
+            gap: 40px;
+            grid-template-columns: auto auto auto;
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+
+                h2 {
+                    padding-top: 17px;
+                    color: #1b745e;
+                }
+
+                p {
+                    padding-top: 15px;
+                    color: #1b745e;
+                }
+                .eye {
+                    width: 35px;
+                    height: 35px;
+                    background-color: #1b745e;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    top: 65px;
+                    right: 20px;
+                    transition: 0.3s;
+
+                    i {
+                        color: white;
+                    }
+
+                    &:hover {
+                        background-color: white;
+
+                        i {
+                            color: #1b745e;
+                        }
+                    }
+                }
+
+                .heart {
+                    width: 35px;
+                    height: 35px;
+                    background-color: #1b745e;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    top: 20px;
+                    right: 20px;
+                    transition: 0.3s;
+
+                    i {
+                        color: white;
+                    }
+
+                    &:hover {
+                        background-color: white;
+
+                        i {
+                            color: #1b745e;
+                        }
+                    }
+                }
+
+                // .shop {
+                //     width: 35px;
+                //     height: 35px;
+                //     background-color: #1b745e;
+                //     display: flex;
+                //     align-items: center;
+                //     justify-content: center;
+                //     position: absolute;
+                //     border-radius: 50%;
+                //     cursor: pointer;
+                //     top: 62px;
+                //     right: 20px;
+                //     transition: 0.3s;
+
+                //     i {
+                //         color: white;
+                //     }
+
+                //     &:hover {
+                //         background-color: white;
+
+                //         i {
+                //             color: #1b745e;
+                //         }
+                //     }
+                // }
+
+                .trash{
+                    width: 35px;
+                    height: 35px;
+                    background-color: rgb(192, 32, 32);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    top: 20px;
+                    left: 20px;
+                    transition: 0.3s;
+
+                    i {
+                        color: white;
+                    }
+
+                    &:hover {
+                        background-color: white;
+
+                        i {
+                            color: red;
+                        }
+                    }
+
+                }
+
+                button {
+                    width: 380px;
+                    height: 50px;
+                    color: white;
+                    background-color: #1b745e;
+                    position: absolute;
+                    cursor: pointer;
+                    bottom: 65px;
+                    border: none;
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    button {
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .four {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        p {
+            font-style: italic;
+            color: #1b745e;
+        }
+
+        h1 {
+            color: #1b745e;
+            padding-top: 13px;
+            font-weight: 100;
+            font-size: 46px;
+            font-family: serif;
+        }
+
+        .cards {
+            margin-top: 60px;
+            display: grid;
+            gap: 50px;
+            grid-template-columns: auto auto auto;
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 340px;
+                height: 380px;
+                border: 1px solid #1b745e;
+                background-color: #fef1e6;
+
+                h2 {
+                    padding-top: 23px;
+                    color: #1b745e;
+                    font-weight: 100;
+                }
+
+                p {
+                    padding-top: 15px;
+                    color: #478a79;
+                    font-size: 20px;
+
+                    span {
+                        font-size: 29px;
+                    }
+                }
+
+                .lorem {
+                    font-size: 18px;
+                }
+
+
+
+                button {
+                    margin-top: 30px;
+                    width: 130px;
+                    height: 50px;
+                    color: #1b745e;
+                    background-color: #d8e3d5;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 16px;
+
+                }
+
+
+
+            }
+        }
+    }
+
+    
+    .five {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       background-color: white;
+
+       p {
+        font-style: italic;
+        color: #1b745e;
+    }
+
+    h1 {
+        color: #1b745e;
+        padding-top: 13px;
+        font-weight: 100;
+        font-size: 46px;
+        font-family: serif;
+    }
+
+        .cards {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                cursor: pointer;
+
+                h2 {
+                    padding-top: 23px;
+                    color: #1b745e;
+                    font-weight: 100;
+                }
+
+                p {
+                    padding-top: 15px;
+                    color: #478a79;
+                    font-size: 20px;
+
+                    span {
+                        font-size: 29px;
+                    }
+                }
+
+                .lorem {
+                    font-size: 18px;
+                }
+
+
+
+                button {
+                    margin-top: 30px;
+                    width: 130px;
+                    height: 50px;
+                    color: #1b745e;
+                    background-color: #d8e3d5;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 16px;
+
+                }
+
+
+
+            }
+        }
+    }
+}
